@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f6f9f9;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #2d3950;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.bennur {
+
+    background-image: url(../images/back-img.png);
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    min-height: 90vh;
+
+    text-align: center;
+
+    position: relative;
+}
+
+.bennur h1 {
+
+    color: #fff;
+
+    font-size: 80px;
+
+    text-transform: uppercase;
+}
+
+.bennur span {
+
+    display: block;
+
+    height: 1px;
+
+    width: 80%;
+
+    background-color: #15a4fa;
+
+    margin: auto;
+
+    margin-bottom: 20px;
+}
+
+.bennur p {
+
+    color: #ffff;
+}
+
+.btn-custom {
+
+    color: #ffff;
+
+    border: 1px solid #15a4fa;
+
+    padding: 0;
+
+    padding: 8px 22px;
+}
+
+.btn-custom :hover {
+
+    background-color: #15a4fa;
+
+    color: #fff;
+}
+
+.height {
+
+    min-height: 90vh;
+
+    align-items: center;
+}
+
+.icon {
+
+    color: #ffff;
+
+    position: absolute;
+
+    left: 50%;
+
+    bottom: 100px;
+
+    transform: translate(-50%);
+    font-size: 25px;
+    animation: updown 1s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes updown {
+    0% {
+        bottom: 70px;
+    }
+
+    100% {
+        bottom: {
+            40px
+        }
+
+        ;
+    }
+}
+
+.Simple_section {
+
+    background-color: #f6f9f9;
+    text-align: center;
+}
+
+.Simple_section h2 {
+
+    color: #2d3950;
+
+    margin-bottom: 20px;
+}
+
+.Simple_section p {
+
+    color: #999999;
+
+    margin-bottom: 50px;
+
+
+}
+
+.icon_section {}
+
+.feature_icon {
+
+    height: 100px;
+
+    width: 100px;
+
+    background-color: blue;
+
+    display: flex;
+
+    justify-content: center;
+
+    color: #ffff;
+
+    font-size: 40px;
+
+    margin: auto;
+
+    align-items: center;
+
+    margin-bottom: 25px;
+}
+
+.icon_section h2 {}
+
+.icon_section p {
+
+    color: #999999;
+}
+
+.Gallary_section {
+    background-color: #f6f9f9;
+}
+
+.gallery_item {
+    position: relative;
+}
+
+.gallery_item::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #15a4fa;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+
+.gallery_item:hover::before {
+    opacity: .5;
+    width: 100%;
+}
+
+.icom_section {
+
+    position: absolute;
+
+    left: 50%;
+
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.icom_section ul {
+
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+}
+
+.icom_section ul li {
+
+    margin: 5px;
+
+    border: 1px solid #fff;
+
+    height: 30px;
+
+    width: 30px;
+
+    text-align: center;
+
+    line-height: 30px;
+
+    border-radius: 3px;
+}
+
+.icom_section ul li a {
+
+    color: #ffff;
+}
+
+.icom_section ul li a i {}
+
+.gallery_item {}
+
+.gallery_item img {
+    width: 100%;
+}
+
+.staywidth_section {
+    background-image: url(../images/root.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.staywidth_section::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #313c4f;
+    opacity: .5;
+    z-index: -1;
+}
+
+.staywidth_section form input {
+    background-color: transparent;
+    color: #fff;
+}
+
+.staywidth_section form textarea {
+    background-color: transparent;
+}
+
+.sand_box {
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.checkbox_center {
+
+    width: 50%;
+
+    display: flex;
+
+    height: 20px;
+
+    text-align: left;
+}
+
+.staywidth_section form input {}
+
+.checkbox_center p {
+
+    color: #fff;
+
+    margin-left: 10px;
+
+    font-size: small;
+}
+
+.staywidth_section form input {}
+
+.staywidth_section form input[type="submit"] {
+
+    color: #fff;
+    padding: 5px 40px;
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+}
+.social_icon{
+
+align-items: center;
+}
+.social_icon ul{
+
+text-align: center;
+
+display: flex;
+
+list-style: none;
+
+justify-content: center;
+
+flex-direction: row;
+}
+.social_icon ul li{
+}
+.social_icon ul li a{
+
+display: inline-block;
+
+width: 30px;
+
+height: 30px;
+
+border-radius: 2px;
+
+line-height: 30px;
+
+margin: 5px;
+
+text-align: center;
+
+background: #15a4fa;
+
+color: #fff;
+}
+.social_icon ul li a i{
+    
+}
